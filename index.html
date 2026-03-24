@@ -107,9 +107,9 @@
     isotach fields over the northeastern Pacific Ocean and most of North America. Each of these datasets are a collection of two-dimensional arrays with an associated time stamp.  
     This makes three, 3-dimensional datasets, or about a 27 dimension dataset. Data can be grouped in any number of ways, and Phase-Space plots will be one way to visualize the
     various categorizations. </h4>
-    <h4>First off, let's take a look at the first three months of 2023. In this plot I compare the 50 wettest and 50 driest 6-hour time periods during those three months to the 
-    500 hPa Heights Self-Organized Map (SOM) nodes that produced those precipitation episodes. This represents a little more than one-quarter of the time periods in a 3-month 
-    time period. For each time of the time periods, precipitation was simply added up across the western United States domain. The region of the domain where the precipitation 
+    <h4>First off, let's take a look at the first three months of 2023. In this phase-space plot I compare the 50 wettest and 50 driest 6-hour time periods during those three months
+    to the 500 hPa Heights Self-Organized Map (SOM) nodes that produced those precipitation episodes. This represents a little more than one-quarter of the time periods in a 3-month 
+    time period. For each of the time periods, precipitation was simply added up across the western United States domain. The region of the domain where the precipitation 
     is not being considered, but the individual maps could certainly be consulted if we were interested in rainfall over certain locations. The Precipitation SOM could be helpful 
     in dividing observed precipitation by region, but that will be addressed at another time. </h4>
     <hr>
@@ -118,6 +118,10 @@
     <td><img src="./Images/2023_JFM_Hgts_SOM.png" width="850"></td>
 </table>    
     <hr>
-    
+    <h4>I also included the SOM that was displayed at the top of the page for the Jan-Feb-March 2023 time period. The number in the right hand table are the date in MDD format. Each of 
+    the data points is for 12z that day. Some of the datapoints on the right will match to points on the left table, but the left hand table also includes datapoints from 0z, 6z and 
+    18z, depending on when the precipitation field was observed. The main thing to notice on the left hand table is the clustering of dry nodes and wet nodes. There are a few exceptions, 
+    but in general dry nodes are grouped with other dry nodes, and wet nodes are clustered with other wet nodes. We can plot both the precipitation images and height fields to 
+    confirm the validity of the SOM placement.  </h4>
   </body>
 </html>
